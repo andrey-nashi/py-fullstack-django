@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {BrowserRouter} from 'react-router-dom'
-import logo from './logo.svg';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css'
+
 
 import PageGenerator from './page/PageGenerator'
 

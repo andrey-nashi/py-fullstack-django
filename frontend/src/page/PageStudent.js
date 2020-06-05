@@ -49,13 +49,19 @@ class PageStudent extends Component {
 
         return (
             <div>
-            Student list
+            <Container>
+            <Segment>
+            Table of students
+            </Segment>
 
+            <Segment>
             <Table>
                 <Table.Body>
                 {table_student}
                 </Table.Body>
             </Table>
+            </Segment>
+            </Container>
             </div>
         )
     }

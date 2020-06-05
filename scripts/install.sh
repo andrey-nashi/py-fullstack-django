@@ -1,6 +1,10 @@
+#---- Install django framework
 pip3 install django djangorestframework django-cors-headers --user
 
-#--- For initializing project
-#--- django-admin startproject django_react_proj
-#--- For updating database models
-#--- python3
+#---- Install NPM packages
+cd ../frontend
+npm install
+npm install react-router-dom
+npm install semantic-ui-react
+npm install semantic-ui-css
+npm install axios
